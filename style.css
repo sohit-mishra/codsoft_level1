@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 36px;
+    color: #372e5d;
+}
+
+.container {
+    box-shadow: 0 0 23px 3px rgb(196, 196, 196);
+    margin: 30px auto;
+    padding: 30px 20px;
+    border-radius: 5px;
+    width: 328px;
+}
+
+.btn {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 15px;
+}
+
+h3 {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 50px;
+    border: 1px solid #372e5d;
+    outline: none;
+    text-align: right;
+    padding: 10px;
+    color: #c3414a;
+    font-size: 26px;
+    overflow: hidden;
+}
+
+.btn input {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border: 1px solid #c3414a;
+    color: #372e5d;
+    border-radius: 5px;
+    font-size: 22px;
+    box-shadow: 4px 5px 3px 2px #c5c5c5;
+}
+
+input:nth-child(4),
+input:nth-child(8),
+input:nth-child(12),
+input:nth-child(15),
+input:nth-child(16) {
+    background: #372e5d;
+    color: #fff;
+    border: 1px solid #372e5d;
+}
+
+input:nth-child(13) {
+    background: #c3414a;
+    color: #fff;
+    border: 1px solid #c3414a;
+}
